@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav{
+    list-style: none;
+    background-color: #a69393;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #554a4a;
+}
+
+/* MAIN */
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    font-weight: 800;
+    justify-items: center;
+}
+
+h2{
+    color: #a69393;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin: 5px;
+    color:#a69393;
+}
+
+h4{
+    font-family: "Poppins", sans-serif;
+    color:#554a4a;
+    font-size: 16px;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin: 5px;
+    color:#554a4a;
+}
+
+.bienvenida{
+    background-image: url(../img/index-fondo.png);
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Background-attachment:fixed;
+    margin: 0;
+    margin-bottom: 25%;
+    padding: 45px;
+    padding-top: 50px;
+    align-items: center;
+    justify-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.bienvenida h1{
+    font-size: 75px;
+    text-shadow:2px 2px 5px #554a4a;
+    font-family: "Poppins", sans-serif;
+}
+
+.bienvenida h2{
+    color: white;
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+}
+
+button{
+    color: white;
+    align-items: center;
+    size: 40px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: #a69393;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    border-color:antiquewhite;
+    font-weight: 700;
+}
+
+button:hover{
+    color:#554a4a;
+}
+
+/* sobre nosotras */
+.nosotras{
+    align-items: center;
+    justify-items: center;
+    background-color:#a69393;
+    font-family: "Poppins", sans-serif;
+}
+
+.nosotras h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 25px;
+    margin: 25px;
+    color:#554a4a;
+    text-shadow:2px 2px 5px #554a4a; 
+}
+
+.nosotras h3{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #554a4a;
+    font-family: "Poppins", sans-serif;
+}
+
+.nosotras p{
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 125px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+
+.nosotras img{
+    width: 90%;
+    align-items: center;
+    border: 5px solid #554a4a;
+    border-radius: 100%;
+    padding:5px;
+}
+
+/* recetas */
+.grid-recetas div h4{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.grid-recetas div p{
+    font-size: 13px;
+    text-align: justify;
+    color: #a69393;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+}
+
+.grid-recetas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "titulo titulo titulo titulo"
+        "desayuno desayuno desayuno desayuno"
+        "recetas-1 recetas-2 recetas-3 recetas-4"
+        "almuerzo almuerzo almuerzo almuerzo"
+        "recetas-5 recetas-6 recetas-7 recetas-8";
+    gap: 25px;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo{
+    display: grid;
+    grid-area: titulo;
+    justify-items: center;
+    text-align: center;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+}
+
+.titulo h2{
+    margin-top: 45px;
+    font-size: 55px;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    color:#554a4a;
+}
+
+.desayuno{
+    display: grid;
+    background-image: url(../img/fondo-desayuno.jpg);
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Background-attachment: fixed;
+    margin: 0;
+    padding: 45px;
+    justify-items: center;
+    font-size: 40px;
+    grid-area: desayuno;
+    text-align: center;
+    z-index: 2;
+    text-shadow:2px 2px 5px #554a4a;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.almuerzo{
+    display: grid;
+    background-image: url(../img/fondo-almuerzo.jpg);
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Background-attachment: fixed;
+    margin: 0;
+    padding: 45px;
+    justify-content: center;
+    font-size: 40px;
+    grid-area: almuerzo;
+    text-align: center;
+    z-index: 2;
+    text-shadow:2px 2px 5px #554a4a;
+    font-family: "Poppins", sans-serif;
+    color:white;
+    font-weight: 500;
+}
+
+.grid-recetas img{
+    width: 100%;
+}
+
+.grid-recetas h4{
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.grid-recetas p{
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+    text-align: justify;
+    font-size: 20px;
+}
+
+recetas-1{
+    display: grid;
+    grid-area: recetas-1;
+}
+
+recetas-2{
+    display: grid;
+    grid-area: recetas-2;
+}
+
+recetas-3{
+    display: grid;
+    grid-area: recetas-3;
+}
+
+recetas-4{
+    display: grid;
+    grid-area: recetas-4;
+}
+
+recetas-5{
+    display: grid;
+    grid-area: recetas-5;
+}
+
+recetas-6{
+    display: grid;
+    grid-area: recetas-6;
+}
+
+recetas-7{
+    display: grid;
+    grid-area: recetas-7;
+}
+
+recetas-8{
+    display: grid;
+    grid-area: recetas-8;
+}
+
+/* tips */
+.titulo-tips{
+    margin-top: 45px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+}
+
+.tips2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+    margin-top: 25px;
+    background-color: #dad0d0;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+}
+
+.card{
+    width: 25px;
+    border: 2px solid #554a4a;
+    padding: 20px;
+    background-color: #a69393;
+    box-shadow: 0 4px 8px #554a4a;
+    max-width: 300px;
+    text-align: center;
+    display: grid;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+}
+
+.card-title{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.card-text{
+    font-size: 13px;
+    color:#554a4a;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card div a{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    color:#554a4a;
+    text-decoration: none;
+    padding: 1px 6px;
+    border: 2px solid #554a4a;
+    border-radius: 12px;
+}
+
+.card div a:hover{
+    background-color: #554a4a;
+    color: white;
+}
+
+/* Contacto */
+.contacto{
+    background-color: #ccc3c3;
+    padding: 25px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 200px;
+    font-family: "Poppins", sans-serif;
+}
+
+.mb-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #554a4a;
+    margin: 15px;
+    margin-top: 35px;
+    display: block;
+}
+
+.form-control{
+    font-size: 25px;
+    background-color: #a69393;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.contacto button{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color:#a69393;
+    margin: 15px;
+    color:white;
+}
+
+.contacto button:hover{
+    background-color: #554a4a;
+    color: white;
+}
+
+.contacto h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #554a4a;
+}
+
+/* FOOTER */
+.footer img{
+    width: 30%;
+    display: inline-block;
+    padding: 5px;
+    margin:5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:955px){
+    .tips2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 25px;
+        margin-top: 25px;
+        background-color: #dad0d0;
+        padding: 20px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-items: center;
+        font-family: "Poppins", sans-serif;
+        color: #554a4a;
+    }
+}
+
+@media screen and (max-width:850px){
+    .grid-recetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:630px){
+    .tips2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 25px;
+        margin-top: 25px;
+        background-color: #dad0d0;
+        padding: 15px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-items: center;
+        font-family: "Poppins", sans-serif;
+        color: #554a4a;
+    }
+}
+
+@media screen and (max-width:580px){
+    header nav{
+        justify-content:space-between;
+        text-align: justify;
+    }
+
+    .grid-recetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "titulo"
+            "desayuno"
+            "recetas-1"
+            "recetas-2"
+            "recetas-3"
+            "recetas-4"
+            "almuerzo"
+            "recetas-5"
+            "recetas-6"
+            "recetas-7"
+            "recetas-8";
+        gap: 25px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .grid-recetas h2{
+        font-size: 35px;
+    }
+    .grid-recetas h3{
+        font-size: 28px;
+    }
+    .grid-recetas img{
+        width: 100%;
+        align-content: center;
+        padding: 65px;
+        justify-content: center;
+    }
+
+        .grid-recetas p{
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .grid-recetas img{
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 7px;
+    }
+}
+
+@media screen and (max-width:570px){
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 12px;
+    }
+
+    .grid-recetas p{
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .grid-recetas h4{
+        font-size: 25px;
+        color: #554a4a;
+        margin-bottom: 0;
+    }
+
+    .grid-recetas img{
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 7px;
+    }
+}
+
+@media screen and(max-width:410px){
+    header nav{
+        justify-content:space-between;
+    }
+    
+    header nav ul li a{
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        display:inline-block;
+        justify-content:center;
+        margin:0;
+        padding: 0;
+    }
+    
+    .titulo-tips h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:379px){
+    header nav ul li a{
+        font-size: 11px;
+        flex-wrap: wrap;
+    }
+
+    .grid-recetas h2{
+        font-size: 20px;
+    }
+
+    .grid-recetas h3{
+        font-size: 18px;
+    }
+
+    .grid-recetas h4{
+        font-size: 12px;
+    }
+
+    .grid-recetas p{
+        font-size: 10px;
+    }
+
+    .grid-recetas img{
+        margin: 0;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 5px;
+        padding-top: 7px;
+    }
+
+    .contacto h2{
+        font-size: 20px;
+    }
+
+    .contacto label.form-label{
+        font-size: 15px;
+    }
+
+    .contacto button{
+        font-size: 15px;
+    }
+}
+
