@@ -526,7 +526,7 @@ recetas-8{
     }
 
     header nav img{
-        width: 55px;
+        width: 40px;
     }
 
     header nav{
@@ -545,6 +545,10 @@ recetas-8{
     header nav{
         justify-content:space-between;
         text-align: justify;
+    }
+
+    header nav img{
+        display: none;
     }
 
     .grid-recetas{
@@ -596,12 +600,20 @@ recetas-8{
         padding-bottom: 5px;
         padding-top: 7px;
     }
+
+    .footer iframe{
+        display: none;
+    }
 }
 
 @media screen and (max-width:570px){
     header nav{
         justify-content:space-around;
         text-align: justify;
+    }
+    
+    header nav img{
+        display: none;
     }
     
     header nav ul li a{
@@ -631,11 +643,15 @@ recetas-8{
         padding-bottom: 5px;
         padding-top: 7px;
     }
+
+    .footer iframe{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 495px){
     header nav img{
-        width: 55px;
+        display: none;
     }
 
     header nav{
@@ -647,6 +663,10 @@ recetas-8{
         font-size: 15px;
         flex-wrap: wrap;
         margin: 10px;
+    }
+
+    .footer iframe{
+        display: none;
     }
 }
 
