@@ -506,6 +506,8 @@ recetas-8{
 
     .bienvenida h1{
         font-size: 60px;
+        color: white;
+        font-family: "Poppins", sans-serif;
     }
 
     .bienvenida h2{
@@ -546,6 +548,11 @@ recetas-8{
         font-size: 18px;
         flex-wrap: wrap;
         margin: 15px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
     }
 }
 
@@ -612,6 +619,11 @@ recetas-8{
     .footer iframe{
         display: none;
     }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
 }
 
 @media screen and (max-width:570px){
@@ -650,6 +662,11 @@ recetas-8{
         padding-right: 30px;
         padding-bottom: 5px;
         padding-top: 7px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
     }
 
     .footer iframe{
@@ -696,6 +713,8 @@ recetas-8{
 
     .bienvenida h1{
         font-size: 40px;
+        color: white;
+        font-family: "Poppins", sans-serif;
     }
 
     .bienvenida h2{
@@ -741,6 +760,11 @@ recetas-8{
     .footer iframe{
         display: none;
     }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
 }
 
 @media screen and (max-width: 389px){
@@ -764,6 +788,8 @@ recetas-8{
 
     .bienvenida h1{
         font-size: 30px;
+        color: white;
+        font-family: "Poppins", sans-serif;
     }
 
     .bienvenida h2{
@@ -816,5 +842,22 @@ recetas-8{
     .contacto button{
         font-size: 15px;
     }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
 }
 
+@media screen and (min-width:360px){
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+    }
+
+    .bienvenida button{
+        font-family: "Poppins", sans-serif;
+        border-radius: 8px;
+    }
+}
