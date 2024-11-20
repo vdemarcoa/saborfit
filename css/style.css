@@ -495,6 +495,18 @@ recetas-8{
         width: 100%;
         margin: 0;
     }
+
+    .bienvenida h1{
+        font-size: 60px;
+    }
+
+    .bienvenida h2{
+        font-size: 20px;
+    }
+
+    .bienvenida button{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:630px){
@@ -511,6 +523,21 @@ recetas-8{
         justify-items: center;
         font-family: "Poppins", sans-serif;
         color: #554a4a;
+    }
+
+    header nav img{
+        width: 55px;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 18px;
+        flex-wrap: wrap;
+        margin: 15px;
     }
 }
 
@@ -606,27 +633,117 @@ recetas-8{
     }
 }
 
+@media screen and (max-width: 495px){
+    header nav img{
+        width: 55px;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    header nav img{
+        display: none;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .bienvenida h1{
+        font-size: 40px;
+    }
+
+    .bienvenida h2{
+        font-size: 15px;
+    }
+
+    .footer img{
+        width: 20%;
+        display: block;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+}
+
 @media screen and(max-width:410px){
     header nav{
         justify-content:space-between;
     }
     
     header nav ul li a{
-        font-size: 10px;
+        font-size: 9px;
         flex-wrap: wrap;
+        margin: 5px;
     }
 
     .footer{
-        display:inline-block;
-        justify-content:center;
         margin:0;
         padding: 0;
+    }
+    
+    header nav img{
+        display: none;
     }
     
     .titulo-tips h2{
         font-size: 20px;
         text-align: center;
         padding: 0;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 389px){
+    header nav{
+        justify-content:space-between;
+    }
+    
+    header nav img{
+        display: none;
+    }
+    
+    header nav ul li a{
+        font-size: 10px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+
+    .bienvenida h1{
+        font-size: 30px;
+    }
+
+    .bienvenida h2{
+        font-size: 13px;
+    }
+
+    .bienvenida button{
+        font-size: 15px;
     }
 }
 
