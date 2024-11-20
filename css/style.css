@@ -490,10 +490,18 @@ recetas-8{
     .grid-recetas{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "titulo titulo"
+        "desayuno desayuno"
+        "recetas-1 recetas-2"
+        "recetas-3 recetas-4"
+        "almuerzo almuerzo"
+        "recetas-5 recetas-6"
+        "recetas-7 recetas-8";
         gap: 25px;
         width: 100%;
-        margin: 0;
+        margin: 0px;
     }
 
     .bienvenida h1{
@@ -615,7 +623,7 @@ recetas-8{
     header nav img{
         display: none;
     }
-    
+
     header nav ul li a{
         font-size: 15px;
         flex-wrap: wrap;
