@@ -1,0 +1,535 @@
+@media screen and (max-width:955px){
+    main .tips2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        margin-top: 25px;
+        background-color: #dad0d0;
+        padding: 20px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-items: center;
+        font-family: "Poppins", sans-serif;
+        color: #554a4a;
+    }
+}
+
+@media screen and (max-width:850px){
+    main .grid-recetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "titulo titulo"
+        "desayuno desayuno"
+        "recetas-1 recetas-2"
+        "recetas-3 recetas-4"
+        "almuerzo almuerzo"
+        "recetas-5 recetas-6"
+        "recetas-7 recetas-8";
+        gap: 20px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .grid-recetas h2{
+        font-size: 35px;
+    }
+
+    .grid-recetas h3{
+        font-size: 28px;
+    }
+
+    .grid-recetas h4{
+        font-size: 12px;
+    }
+
+    .grid-recetas h5{
+        font-size: 10px;
+    }
+
+    .grid-recetas p{
+        font-size: 8px;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .bienvenida h1{
+        font-size: 60px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .bienvenida h2{
+        font-size: 20px;
+    }
+
+    .bienvenida button{
+        font-size: 20px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:630px){
+    main .tips2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 25px;
+        margin-top: 25px;
+        background-color: #dad0d0;
+        padding: 15px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-items: center;
+        font-family: "Poppins", sans-serif;
+        color: #554a4a;
+    }
+
+    header nav img{
+        width: 40px;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 18px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 40px;
+    }
+
+    .bienvenida h2{
+        font-size: 15px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    header nav{
+        justify-content:space-between;
+        text-align: justify;
+    }
+
+    header nav img{
+        display: none;
+    }
+
+    main .grid-recetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "titulo"
+            "desayuno"
+            "recetas-1"
+            "recetas-2"
+            "recetas-3"
+            "recetas-4"
+            "almuerzo"
+            "recetas-5"
+            "recetas-6"
+            "recetas-7"
+            "recetas-8";
+        gap: 15px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .grid-recetas h2{
+        font-size: 35px;
+    }
+
+    .grid-recetas h4{
+        font-size: 10px;
+    }
+
+    .grid-recetas h3{
+        font-size: 28px;
+    }
+
+    .grid-recetas h5{
+        font-size: 8px;
+    }
+    
+    .grid-recetas p{
+        font-size: 7px;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+    }
+
+    .bienvenida h2{
+        font-size: 10px;
+    }
+
+    .boton-inicio{
+        font-size: 15px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:570px){
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav img{
+        display: none;
+    }
+
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 12px;
+    }
+
+    .grid-recetas p{
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .grid-recetas h4{
+        font-size: 25px;
+        color: #554a4a;
+        margin-bottom: 0;
+    }
+
+    .grid-recetas img{
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 7px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+    }
+
+    .bienvenida h2{
+        font-size: 10px;
+    }
+
+    .boton-inicio{
+        font-size: 15px;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 495px){
+    header nav img{
+        display: none;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+}
+
+.bienvenida h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.bienvenida h2{
+    font-size: 8px;
+}
+
+.boton-inicio{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 475px){
+    header nav img{
+        display: none;
+    }
+
+    header nav{
+        justify-content:space-around;
+        text-align: justify;
+    }
+    
+    header nav ul li a{
+        font-size: 15px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+    
+    .bienvenida h2{
+        font-size: 6px;
+    }
+    
+    .boton-inicio{
+        font-size: 10px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+
+    .footer img{
+        width: 20%;
+        display: flex;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px){
+    .nosotras h2{
+        font-size: 13px;
+    }
+
+    .nosotras h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:410px){
+    header nav{
+        justify-content:space-between;
+    }
+    
+    header nav ul li a{
+        font-size: 9px;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+
+    .footer{
+        margin:0;
+        padding: 0;
+    }
+    
+    header nav img{
+        display: none;
+    }
+    
+    .titulo-tips h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    .bienvenida h2{
+        font-size: 5px;
+    }
+    
+    .boton-inicio{
+        font-size: 8px;
+        border-radius: 2px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+
+    .nosotras h2{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 389px){
+    header nav{
+        justify-content:space-between;
+    }
+    
+    header nav img{
+        display: none;
+    }
+    
+    header nav ul li a{
+        font-size: 10px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .footer iframe{
+        display: none;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    .bienvenida h2{
+        font-size: 5px;
+    }
+    
+    .boton-inicio{
+        font-size: 8px;
+        border-radius: 2px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+
+    .nosotras h2{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:379px){
+    header nav ul li a{
+        font-size: 11px;
+        flex-wrap: wrap;
+    }
+
+    .grid-recetas h2{
+        font-size: 20px;
+    }
+
+    .grid-recetas h3{
+        font-size: 18px;
+    }
+
+    .grid-recetas h4{
+        font-size: 12px;
+    }
+
+    .grid-recetas p{
+        font-size: 10px;
+    }
+
+    .grid-recetas img{
+        margin: 0;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 5px;
+        padding-top: 7px;
+    }
+
+    .contacto h2{
+        font-size: 20px;
+    }
+
+    .contacto label.form-label{
+        font-size: 15px;
+    }
+
+    .contacto button{
+        font-size: 15px;
+    }
+
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    .bienvenida h2{
+        font-size: 5px;
+    }
+    
+    .boton-inicio{
+        font-size: 8px;
+        border-radius: 2px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+
+    .nosotras h2{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:360px){
+    .bienvenida h1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    .bienvenida h2{
+        font-size: 5px;
+    }
+    
+    .boton-inicio{
+        font-size: 8px;
+        border-radius: 2px;
+    }
+
+    .nosotras p{
+        text-align: center;
+    }
+
+    .nosotras h2{
+        font-size: 13px;
+    }
+}

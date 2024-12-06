@@ -1,0 +1,52 @@
+footer{
+    .footer{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-top: 15px;
+        font-family: "Poppins", sans-serif;
+        @include flex (flex, space-between, center);
+        .icon-column{
+            display: flex;
+            flex-direction: column;
+            .insta{
+                margin: 10px 0;
+                img{
+                    width: 30%;
+                    display: inline-block;
+                    padding: 5px;
+                    margin:5px;
+                }
+            }
+            .fb{
+                margin: 10px 0;
+                img{
+                    width: 30%;
+                    display: inline-block;
+                    padding: 5px;
+                    margin:5px;
+                }
+            }
+            .wpp{
+                margin: 10px 0;
+                img{
+                    width: 30%;
+                    display: inline-block;
+                    padding: 5px;
+                    margin:5px;
+                }
+            }
+            .mail{
+                margin: 10px 0;
+                img{
+                    width: 30%;
+                    display: inline-block;
+                    padding: 5px;
+                    margin:5px;
+                }
+            }
+        }
+        .maps{
+            margin-left: 20px;
+            }
+    }
+}

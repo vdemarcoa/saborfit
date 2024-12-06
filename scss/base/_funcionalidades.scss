@@ -1,0 +1,23 @@
+/*! VARIABLES */
+$color-1: white;
+$color-2: #dad0d0;
+$color-3: #ccc3c3;
+$color-4: #a69393;
+$color-5: #554a4a;
+
+//* LISTA
+$colores: white, #dad0d0, #ccc3c3, #a69393, #554a4a;
+$font-size: 5px, 6px, 7px, 8px, 9px, 10px, 11px, 12px, 13px, 15px, 16px, 17px, 18px, 20px, 22px, 25px, 27px, 28px, 30px, 35px, 40px, 50px, 55px, 60px, 70px, 75px;
+
+//* EXTEND
+%boton{
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+//* MIXIN
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
