@@ -15,9 +15,13 @@ main{
         font-family: "Poppins", sans-serif;
         h1{
             font-size: 70px;
-            text-shadow:2px 2px 5px #554a4a;
+            text-shadow:2px 2px 5px $color-5;
             font-family: "Poppins", sans-serif;
             font-weight:800;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
         h2{
             color: nth($colores, 1);
@@ -33,7 +37,10 @@ main{
         .boton-inicio{
             margin-top: 100px;
             font-size: 28px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
             @extend %boton;
+            transition: 0.5s;
         }
     }
 }
@@ -43,24 +50,33 @@ main{
     .nosotras{
         align-items: center;
         justify-items: center;
-        background-color:#ccc3c3;
         font-family: "Poppins", sans-serif;
         padding: 25px;
+        background: rgb(166,147,147);
+        background: linear-gradient(180deg, rgba(166,147,147,1) 0%, rgba(255,255,255,1) 100%);
         h2{
             font-family: "Poppins", sans-serif;
             font-weight: 700;
             padding: 25px;
             margin: 25px;
-            text-shadow:2px 2px 5px #554a4a;
             color: nth($colores, 5);
             font-size: nth($font-size, 22);
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                text-shadow:2px 2px 5px $color-5;
+            }
         }
         img{
             width: 90%;
             align-items: center;
-            border: 5px solid #554a4a;
+            border: 5px solid $color-5;
             border-radius: 100%;
             padding:5px;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         h3{
             padding: 20px;
@@ -68,17 +84,21 @@ main{
             font-family: "Poppins", sans-serif;
             color: nth($colores, 5);
             font-size: nth($font-size, 20);
-            p{
+        }
+        p{
                 margin-left: 10%;
                 margin-right: 10%;
                 text-align: justify;
                 padding: 30px;
                 margin-bottom: 125px;
                 font-family: "Poppins", sans-serif;
-                color: nth($colores, 1);
+                color: nth($colores, 5);
                 font-size: nth($font-size, 15);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 600;
+                }
             }
-        }
     }
 }
 
@@ -105,15 +125,22 @@ main{
             z-index: 1;
             font-family: "Poppins", sans-serif;
             color: nth($colores, 5);
-            background-color: #ccc3c3;
+            font-size: nth($font-size, 22);
+            background: rgb(166,147,147);
+            background: linear-gradient(180deg, rgba(166,147,147,1) 0%, rgba(255,255,255,1) 100%);
             
             h2{
                 margin-top: 45px;
-                font-size: 55px;
                 margin-bottom: 40px;
                 font-family: "Poppins", sans-serif;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 22);
+                font-weight: 700;
+                transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                text-shadow:2px 2px 5px $color-5;
+            }
             }
         }
         .desayuno{
@@ -130,7 +157,7 @@ main{
             grid-area: desayuno;
             text-align: center;
             z-index: 2;
-            text-shadow:2px 2px 5px #554a4a;
+            text-shadow:2px 2px 5px $color-5;
             font-family: "Poppins", sans-serif;
             font-weight: 500;
             color: nth($colores, 1);
@@ -153,9 +180,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -163,12 +200,14 @@ main{
                 font-size: nth($font-size, 13);
                 text-align: justify;
                 font-style: italic;
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
                 text-align: justify;
+                margin: 10px;
             }
         }
         .recetas-2{
@@ -181,9 +220,19 @@ main{
                 font-weight: 300;
                 padding-top: 20px;
                 padding-bottom: 0;
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -191,12 +240,14 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .recetas-3{
@@ -209,24 +260,35 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
-                color: #554a4a;
                 text-align: justify;
                 font-size: 18px;
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .recetas-4{
@@ -239,9 +301,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -249,21 +321,23 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .almuerzo{
             display: grid;
             background-image: url(../img/fondo-almuerzo.jpg);
-            Background-position: center;
-            Background-repeat: no-repeat;
-            Background-size: cover;
-            Background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
             margin: 0;
             padding: 45px;
             justify-content: center;
@@ -271,7 +345,7 @@ main{
             grid-area: almuerzo;
             text-align: center;
             z-index: 2;
-            text-shadow:2px 2px 5px #554a4a;
+            text-shadow:2px 2px 5px $color-5;
             font-family: "Poppins", sans-serif;
             color: nth($colores, 1);
             font-weight: 500;
@@ -279,7 +353,7 @@ main{
                 font-family: "Poppins", sans-serif;
                 align-items: center;
                 margin: 5px;
-                color:#a69393;
+                color: $color-4;
                 color: nth($colores, 4);
             }
         }
@@ -293,9 +367,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -303,12 +387,14 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .recetas-6{
@@ -321,9 +407,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -331,12 +427,14 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .recetas-7{
@@ -349,9 +447,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -359,12 +467,14 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
         .recetas-8{
@@ -377,9 +487,19 @@ main{
                 padding-bottom: 0;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
+                transition: 1.5s;
+                &:hover{
+                    font-weight: 500;
+                    transform: scale(1.1);
+                }
             }
             img{
                 width: 100%;
+                margin: 10px;
+                transition: 1s;
+                &:hover{
+                    box-shadow: 0 4px 8px $color-5;
+                }
             }
             h5{
                 font-family: "Poppins", sans-serif;
@@ -387,12 +507,14 @@ main{
                 font-style: italic;
                 color: nth($colores, 5);
                 font-size: nth($font-size, 13);
+                margin: 10px;
             }
             p{
                 font-family: "Poppins", sans-serif;
                 text-align: justify;
                 color: nth($colores, 4);
                 font-size: nth($font-size, 11);
+                margin: 10px;
             }
         }
     }
@@ -447,17 +569,21 @@ main{
         margin-bottom: 40px;
         text-align: center;
         font-family: "Poppins", sans-serif;
-        color: nth($colores, 5);
-        font-size: nth($font-size, 20);
         
         h2{
             font-family: "Poppins", sans-serif;
-            font-weight: 600;
             padding: 0;
             margin: 5px;
             align-items: center;
             justify-items: center;
-            color: nth($colores, 4);
+            color: nth($colores, 5);
+            font-size: nth($font-size, 22);
+            font-weight: 700;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                text-shadow:2px 2px 5px $color-5;
+            }
         }
     }
     .tips2{
@@ -466,28 +592,32 @@ main{
         grid-template-rows: auto;
         gap: 25px;
         margin-top: 25px;
-        background-color: #dad0d0;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(85,74,74,1) 100%);
         padding: 20px;
         padding-bottom: 70px;
         box-sizing: border-box;
         align-items: center;
         justify-items: center;
         font-family: "Poppins", sans-serif;
-        color: #554a4a;
         color: nth($colores, 5);
         
         .card{
             width: 25px;
-            border: 2px solid #554a4a;
+            border: 2px solid $color-5;
             padding: 20px;
-            background-color: #a69393;
-            box-shadow: 0 4px 8px #554a4a;
+            background-color: $color-4;
             max-width: 300px;
             text-align: center;
             display: grid;
             border-radius: 7px;
             font-family: "Poppins", sans-serif;
             color: nth($colores, 5);
+            transition: 1s;
+            &:hover{
+                box-shadow: 0 4px 8px $color-5;
+                transform: scale(1.1);
+            }
             
             .tip-1{
                 width: 100%;
@@ -498,6 +628,10 @@ main{
                     font-weight: 400;
                     color: nth($colores, 1);
                     font-size: nth($font-size, 13);
+                    transition: 0.5s;
+                    &:hover{
+                        font-weight: 700;
+                    }
                 }
                 .card-text{
                     padding-bottom: 10px;
@@ -512,13 +646,14 @@ main{
                     font-weight: 550;
                     text-decoration: none;
                     padding: 1px 6px;
-                    border: 2px solid #554a4a;
+                    border: 2px solid $color-5;
                     border-radius: 12px;
                     color: nth($colores, 5);
                     font-size: nth($font-size, 12);
+                    transition: 0.5s;
                     &:hover{
-                        background-color: #554a4a;
-                        color: white;
+                        background-color: $color-5;
+                        color: $color-1;
                         }
                 }
             }
@@ -529,7 +664,8 @@ main{
 /* CONTACTO */
 main{
     .contacto{
-        background-color: #ccc3c3;
+        background: rgb(166,147,147);
+        background: linear-gradient(180deg, rgba(166,147,147,1) 0%, rgba(85,74,74,1) 100%);
         padding: 25px;
         align-content: center;
         justify-content: center;
@@ -539,8 +675,14 @@ main{
             text-align: center;
             padding: 20px;
             font-family: "Poppins", sans-serif;
+            font-weight: 700;
             color: nth($colores, 5);
-            font-size: nth($font-size, 21);
+            font-size: nth($font-size, 22);
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+                text-shadow:2px 2px 5px $color-5;
+            }
         }
         .mb-3{
             font-family: "Poppins", sans-serif;
@@ -554,13 +696,15 @@ main{
         .custom-button{
             font-family: "Poppins", sans-serif;
             font-weight: 400;
-            background-color:#a69393;
+            background-color:$color-4;
             margin: 15px;
             color: nth($colores, 1);
             font-size: nth($font-size, 14);
+            transition: 1s;
             &:hover{
-                background-color: #554a4a;
-                color: white;
+                background-color: $color-5;
+                color: $color-1;
+                transform: scale(1.2);
             }
         }
     }

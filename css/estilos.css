@@ -27,9 +27,12 @@ button {
   border-radius: 8px;
   border-color: white;
   font-weight: 700;
+  transition: 1s;
 }
 button:hover {
   color: #554a4a;
+  transform: scale(1.1);
+  border-color: #554a4a;
 }
 
 h1 {
@@ -93,6 +96,7 @@ header nav ul li a {
   font-weight: 600;
   margin-right: 50px;
   flex-wrap: wrap;
+  transition: 0.5s;
 }
 header nav ul li a:hover {
   color: #554a4a;
@@ -118,6 +122,10 @@ main .bienvenida h1 {
   text-shadow: 2px 2px 5px #554a4a;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
+  transition: 1s;
+}
+main .bienvenida h1:hover {
+  transform: scale(1.2);
 }
 main .bienvenida h2 {
   color: white;
@@ -133,24 +141,32 @@ main .bienvenida h2 {
 main .bienvenida .boton-inicio {
   margin-top: 100px;
   font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  transition: 0.5s;
 }
 
 /* SOBRE NOSOTRAS */
 main .nosotras {
   align-items: center;
   justify-items: center;
-  background-color: #ccc3c3;
   font-family: "Poppins", sans-serif;
   padding: 25px;
+  background: rgb(166, 147, 147);
+  background: linear-gradient(180deg, rgb(166, 147, 147) 0%, rgb(255, 255, 255) 100%);
 }
 main .nosotras h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   padding: 25px;
   margin: 25px;
-  text-shadow: 2px 2px 5px #554a4a;
   color: #554a4a;
   font-size: 50px;
+  transition: 1s;
+}
+main .nosotras h2:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 5px #554a4a;
 }
 main .nosotras img {
   width: 90%;
@@ -158,6 +174,10 @@ main .nosotras img {
   border: 5px solid #554a4a;
   border-radius: 100%;
   padding: 5px;
+  transition: 1s;
+}
+main .nosotras img:hover {
+  transform: scale(1.1);
 }
 main .nosotras h3 {
   padding: 20px;
@@ -166,15 +186,19 @@ main .nosotras h3 {
   color: #554a4a;
   font-size: 35px;
 }
-main .nosotras h3 p {
+main .nosotras p {
   margin-left: 10%;
   margin-right: 10%;
   text-align: justify;
   padding: 30px;
   margin-bottom: 125px;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #554a4a;
   font-size: 22px;
+  transition: 1.5s;
+}
+main .nosotras p:hover {
+  font-weight: 600;
 }
 
 /* RECETAS */
@@ -194,15 +218,22 @@ main .grid-recetas .titulo {
   z-index: 1;
   font-family: "Poppins", sans-serif;
   color: #554a4a;
-  background-color: #ccc3c3;
+  font-size: 50px;
+  background: rgb(166, 147, 147);
+  background: linear-gradient(180deg, rgb(166, 147, 147) 0%, rgb(255, 255, 255) 100%);
 }
 main .grid-recetas .titulo h2 {
   margin-top: 45px;
-  font-size: 55px;
   margin-bottom: 40px;
   font-family: "Poppins", sans-serif;
   color: #554a4a;
   font-size: 50px;
+  font-weight: 700;
+  transition: 1s;
+}
+main .grid-recetas .titulo h2:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 5px #554a4a;
 }
 main .grid-recetas .desayuno {
   display: grid;
@@ -239,9 +270,19 @@ main .grid-recetas .recetas-1 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-1 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-1 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-1 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-1 h5 {
   font-family: "Poppins", sans-serif;
@@ -249,12 +290,14 @@ main .grid-recetas .recetas-1 h5 {
   font-size: 18px;
   text-align: justify;
   font-style: italic;
+  margin: 10px;
 }
 main .grid-recetas .recetas-1 p {
   font-family: "Poppins", sans-serif;
   color: #a69393;
   font-size: 16px;
   text-align: justify;
+  margin: 10px;
 }
 main .grid-recetas .recetas-2 h4 {
   text-align: center;
@@ -265,9 +308,19 @@ main .grid-recetas .recetas-2 h4 {
   font-weight: 300;
   padding-top: 20px;
   padding-bottom: 0;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-2 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-2 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-2 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-2 h5 {
   font-family: "Poppins", sans-serif;
@@ -275,12 +328,14 @@ main .grid-recetas .recetas-2 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-2 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-3 h4 {
   text-align: center;
@@ -291,24 +346,35 @@ main .grid-recetas .recetas-3 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-3 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-3 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-3 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-3 h5 {
   font-family: "Poppins", sans-serif;
-  color: #554a4a;
   text-align: justify;
   font-size: 18px;
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-3 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-4 h4 {
   text-align: center;
@@ -319,9 +385,19 @@ main .grid-recetas .recetas-4 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-4 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-4 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-4 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-4 h5 {
   font-family: "Poppins", sans-serif;
@@ -329,20 +405,22 @@ main .grid-recetas .recetas-4 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-4 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .almuerzo {
   display: grid;
   background-image: url(../img/fondo-almuerzo.jpg);
-  Background-position: center;
-  Background-repeat: no-repeat;
-  Background-size: cover;
-  Background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   padding: 45px;
   justify-content: center;
@@ -371,9 +449,19 @@ main .grid-recetas .recetas-5 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-5 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-5 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-5 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-5 h5 {
   font-family: "Poppins", sans-serif;
@@ -381,12 +469,14 @@ main .grid-recetas .recetas-5 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-5 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-6 h4 {
   text-align: center;
@@ -397,9 +487,19 @@ main .grid-recetas .recetas-6 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-6 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-6 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-6 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-6 h5 {
   font-family: "Poppins", sans-serif;
@@ -407,12 +507,14 @@ main .grid-recetas .recetas-6 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-6 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-7 h4 {
   text-align: center;
@@ -423,9 +525,19 @@ main .grid-recetas .recetas-7 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-7 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-7 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-7 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-7 h5 {
   font-family: "Poppins", sans-serif;
@@ -433,12 +545,14 @@ main .grid-recetas .recetas-7 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-7 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-8 h4 {
   text-align: center;
@@ -449,9 +563,19 @@ main .grid-recetas .recetas-8 h4 {
   padding-bottom: 0;
   color: #554a4a;
   font-size: 25px;
+  transition: 1.5s;
+}
+main .grid-recetas .recetas-8 h4:hover {
+  font-weight: 500;
+  transform: scale(1.1);
 }
 main .grid-recetas .recetas-8 img {
   width: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+main .grid-recetas .recetas-8 img:hover {
+  box-shadow: 0 4px 8px #554a4a;
 }
 main .grid-recetas .recetas-8 h5 {
   font-family: "Poppins", sans-serif;
@@ -459,12 +583,14 @@ main .grid-recetas .recetas-8 h5 {
   font-style: italic;
   color: #554a4a;
   font-size: 18px;
+  margin: 10px;
 }
 main .grid-recetas .recetas-8 p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #a69393;
   font-size: 16px;
+  margin: 10px;
 }
 
 /* GRID RECETAS */
@@ -514,17 +640,21 @@ main .titulo-tips {
   margin-bottom: 40px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #554a4a;
-  font-size: 35px;
 }
 main .titulo-tips h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
   padding: 0;
   margin: 5px;
   align-items: center;
   justify-items: center;
-  color: #a69393;
+  color: #554a4a;
+  font-size: 50px;
+  font-weight: 700;
+  transition: 1s;
+}
+main .titulo-tips h2:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 5px #554a4a;
 }
 main .tips2 {
   display: grid;
@@ -532,7 +662,8 @@ main .tips2 {
   grid-template-rows: auto;
   gap: 25px;
   margin-top: 25px;
-  background-color: #dad0d0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(85, 74, 74) 100%);
   padding: 20px;
   padding-bottom: 70px;
   box-sizing: border-box;
@@ -540,20 +671,23 @@ main .tips2 {
   justify-items: center;
   font-family: "Poppins", sans-serif;
   color: #554a4a;
-  color: #554a4a;
 }
 main .tips2 .card {
   width: 25px;
   border: 2px solid #554a4a;
   padding: 20px;
   background-color: #a69393;
-  box-shadow: 0 4px 8px #554a4a;
   max-width: 300px;
   text-align: center;
   display: grid;
   border-radius: 7px;
   font-family: "Poppins", sans-serif;
   color: #554a4a;
+  transition: 1s;
+}
+main .tips2 .card:hover {
+  box-shadow: 0 4px 8px #554a4a;
+  transform: scale(1.1);
 }
 main .tips2 .card .tip-1 {
   width: 100%;
@@ -563,6 +697,10 @@ main .tips2 .card .card-body .card-title {
   font-weight: 400;
   color: white;
   font-size: 18px;
+  transition: 0.5s;
+}
+main .tips2 .card .card-body .card-title:hover {
+  font-weight: 700;
 }
 main .tips2 .card .card-body .card-text {
   padding-bottom: 10px;
@@ -581,6 +719,7 @@ main .tips2 .card .card-body a {
   border-radius: 12px;
   color: #554a4a;
   font-size: 17px;
+  transition: 0.5s;
 }
 main .tips2 .card .card-body a:hover {
   background-color: #554a4a;
@@ -589,7 +728,8 @@ main .tips2 .card .card-body a:hover {
 
 /* CONTACTO */
 main .contacto {
-  background-color: #ccc3c3;
+  background: rgb(166, 147, 147);
+  background: linear-gradient(180deg, rgb(166, 147, 147) 0%, rgb(85, 74, 74) 100%);
   padding: 25px;
   align-content: center;
   justify-content: center;
@@ -600,8 +740,14 @@ main .contacto h2 {
   text-align: center;
   padding: 20px;
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: #554a4a;
-  font-size: 40px;
+  font-size: 50px;
+  transition: 1s;
+}
+main .contacto h2:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #554a4a;
 }
 main .contacto .mb-3 {
   font-family: "Poppins", sans-serif;
@@ -619,10 +765,12 @@ main .contacto .custom-button {
   margin: 15px;
   color: white;
   font-size: 20px;
+  transition: 1s;
 }
 main .contacto .custom-button:hover {
   background-color: #554a4a;
   color: white;
+  transform: scale(1.2);
 }
 
 footer .footer {
@@ -646,6 +794,10 @@ footer .footer .icon-column .insta img {
   display: inline-block;
   padding: 5px;
   margin: 5px;
+  transition: 0.5s;
+}
+footer .footer .icon-column .insta img:hover {
+  transform: scale(1.3);
 }
 footer .footer .icon-column .fb {
   margin: 10px 0;
@@ -655,6 +807,10 @@ footer .footer .icon-column .fb img {
   display: inline-block;
   padding: 5px;
   margin: 5px;
+  transition: 0.5s;
+}
+footer .footer .icon-column .fb img:hover {
+  transform: scale(1.3);
 }
 footer .footer .icon-column .wpp {
   margin: 10px 0;
@@ -664,6 +820,10 @@ footer .footer .icon-column .wpp img {
   display: inline-block;
   padding: 5px;
   margin: 5px;
+  transition: 0.5s;
+}
+footer .footer .icon-column .wpp img:hover {
+  transform: scale(1.3);
 }
 footer .footer .icon-column .mail {
   margin: 10px 0;
@@ -673,9 +833,17 @@ footer .footer .icon-column .mail img {
   display: inline-block;
   padding: 5px;
   margin: 5px;
+  transition: 0.5s;
+}
+footer .footer .icon-column .mail img:hover {
+  transform: scale(1.3);
 }
 footer .footer .maps {
   margin-left: 20px;
+  transition: 1s;
+}
+footer .footer .maps:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 955px) {
@@ -953,10 +1121,10 @@ footer .footer .maps {
 }
 @media screen and (max-width: 410px) {
   header nav {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   header nav ul li a {
-    font-size: 9px;
+    font-size: 12px;
     flex-wrap: wrap;
     margin: 5px;
   }
@@ -1009,23 +1177,133 @@ footer .footer .maps {
   .footer iframe {
     display: none;
   }
-  .bienvenida h1 {
+  main .bienvenida h1 {
     color: white;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 56px;
   }
-  .bienvenida h2 {
-    font-size: 5px;
+  main .bienvenida h2 {
+    font-size: 18px;
   }
-  .boton-inicio {
-    font-size: 8px;
-    border-radius: 2px;
+  main .bienvenida .boton-inicio {
+    font-size: 24px;
+    border-radius: 8px;
   }
-  .nosotras p {
+  main .nosotras p {
     text-align: center;
+    font-size: 15px;
   }
-  .nosotras h2 {
-    font-size: 13px;
+  main .nosotras h2 {
+    font-size: 22px;
+  }
+  main .nosotras h3 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  main .contacto h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .titulo h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .recetas-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-1 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-1 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-2 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-2 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-3 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-3 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-3 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-4 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-4 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-4 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-5 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-5 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-5 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-6 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-6 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-6 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-7 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-7 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-7 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-8 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-8 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-8 p {
+    font-size: 14.5px;
+  }
+  main .titulo-tips h2 {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 379px) {
@@ -1033,71 +1311,263 @@ footer .footer .maps {
     font-size: 11px;
     flex-wrap: wrap;
   }
-  .grid-recetas h2 {
-    font-size: 20px;
+  main .bienvenida h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
   }
-  .grid-recetas h3 {
+  main .bienvenida h2 {
     font-size: 18px;
   }
-  .grid-recetas h4 {
-    font-size: 12px;
+  main .bienvenida .boton-inicio {
+    font-size: 24px;
+    border-radius: 8px;
   }
-  .grid-recetas p {
-    font-size: 10px;
-  }
-  .grid-recetas img {
-    margin: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 5px;
-    padding-top: 7px;
-  }
-  .contacto h2 {
-    font-size: 20px;
-  }
-  .contacto label.form-label {
-    font-size: 15px;
-  }
-  .contacto button {
-    font-size: 15px;
-  }
-  .bienvenida h1 {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-  }
-  .bienvenida h2 {
-    font-size: 5px;
-  }
-  .boton-inicio {
-    font-size: 8px;
-    border-radius: 2px;
-  }
-  .nosotras p {
+  main .nosotras p {
     text-align: center;
+    font-size: 15px;
   }
-  .nosotras h2 {
-    font-size: 13px;
+  main .nosotras h2 {
+    font-size: 22px;
+  }
+  main .nosotras h3 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  main .contacto h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .titulo h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .recetas-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-1 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-1 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-2 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-2 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-3 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-3 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-3 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-4 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-4 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-4 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-5 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-5 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-5 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-6 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-6 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-6 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-7 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-7 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-7 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-8 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-8 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-8 p {
+    font-size: 14.5px;
+  }
+  main .titulo-tips h2 {
+    font-size: 22px;
   }
 }
-@media screen and (min-width: 360px) {
-  .bienvenida h1 {
+@media screen and (max-width: 360px) {
+  main .bienvenida h1 {
     color: white;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 56px;
   }
-  .bienvenida h2 {
-    font-size: 5px;
+  main .bienvenida h2 {
+    font-size: 18px;
   }
-  .boton-inicio {
-    font-size: 8px;
-    border-radius: 2px;
+  main .bienvenida .boton-inicio {
+    font-size: 24px;
+    border-radius: 8px;
   }
-  .nosotras p {
+  main .nosotras p {
     text-align: center;
+    font-size: 15px;
   }
-  .nosotras h2 {
-    font-size: 13px;
+  main .nosotras h2 {
+    font-size: 22px;
+  }
+  main .nosotras h3 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  main .contacto h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .titulo h2 {
+    font-size: 22px;
+  }
+  main .grid-recetas .recetas-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-1 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-1 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-2 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-2 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-3 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-3 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-3 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-4 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-4 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-4 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-5 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-5 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-5 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-6 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-6 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-6 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-7 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-7 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-7 p {
+    font-size: 14.5px;
+  }
+  main .grid-recetas .recetas-8 h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .grid-recetas .recetas-8 h5 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .grid-recetas .recetas-8 p {
+    font-size: 14.5px;
+  }
+  main .titulo-tips h2 {
+    font-size: 22px;
   }
 }
 

@@ -18,6 +18,7 @@ header{
                     font-weight: 600;
                     margin-right: 50px;
                     flex-wrap: wrap;
+                    transition: 0.5s;
                     &:hover{
                         color: nth($colores, 5);
                     }
