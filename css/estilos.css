@@ -101,6 +101,20 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #554a4a;
 }
+header nav h1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 5px #554a4a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav h1:hover {
+  transform: scale(1.2);
+}
 
 /* INDEX */
 main .bienvenida {
@@ -111,23 +125,27 @@ main .bienvenida {
   background-attachment: fixed;
   margin: 0;
   padding: 60px;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 285px;
   align-items: center;
   justify-items: center;
   font-family: "Poppins", sans-serif;
 }
-main .bienvenida h1 {
-  font-size: 70px;
+main .bienvenida h2 {
+  font-size: 60px;
+  color: white;
   text-shadow: 2px 2px 5px #554a4a;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   transition: 1s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-main .bienvenida h1:hover {
+main .bienvenida h2:hover {
   transform: scale(1.2);
 }
-main .bienvenida h2 {
+main .bienvenida h3 {
   color: white;
   font-size: 27px;
   margin-bottom: 45px;
@@ -980,12 +998,12 @@ footer .footer .maps:hover {
   .footer iframe {
     display: none;
   }
-  .bienvenida h1 {
+  .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
   }
-  .bienvenida h2 {
+  .bienvenida h3 {
     font-size: 10px;
   }
   .boton-inicio {
@@ -1027,12 +1045,12 @@ footer .footer .maps:hover {
     padding-bottom: 5px;
     padding-top: 7px;
   }
-  .bienvenida h1 {
+  .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
   }
-  .bienvenida h2 {
+  .bienvenida h3 {
     font-size: 10px;
   }
   .boton-inicio {
@@ -1062,13 +1080,13 @@ footer .footer .maps:hover {
     display: none;
   }
 }
-.bienvenida h1 {
+.bienvenida h2 {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
 
-.bienvenida h2 {
+.bienvenida h3 {
   font-size: 8px;
 }
 
@@ -1089,12 +1107,12 @@ footer .footer .maps:hover {
     flex-wrap: wrap;
     margin: 15px;
   }
-  .bienvenida h1 {
+  .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
   }
-  .bienvenida h2 {
+  .bienvenida h3 {
     font-size: 6px;
   }
   .boton-inicio {
@@ -1143,12 +1161,12 @@ footer .footer .maps:hover {
   .footer iframe {
     display: none;
   }
-  .bienvenida h1 {
+  .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
   }
-  .bienvenida h2 {
+  .bienvenida h3 {
     font-size: 5px;
   }
   .boton-inicio {
@@ -1177,12 +1195,12 @@ footer .footer .maps:hover {
   .footer iframe {
     display: none;
   }
-  main .bienvenida h1 {
+  main .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 56px;
   }
-  main .bienvenida h2 {
+  main .bienvenida h3 {
     font-size: 18px;
   }
   main .bienvenida .boton-inicio {
@@ -1311,12 +1329,12 @@ footer .footer .maps:hover {
     font-size: 11px;
     flex-wrap: wrap;
   }
-  main .bienvenida h1 {
+  main .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 56px;
   }
-  main .bienvenida h2 {
+  main .bienvenida h3 {
     font-size: 18px;
   }
   main .bienvenida .boton-inicio {
@@ -1441,12 +1459,12 @@ footer .footer .maps:hover {
   }
 }
 @media screen and (max-width: 360px) {
-  main .bienvenida h1 {
+  main .bienvenida h2 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 56px;
   }
-  main .bienvenida h2 {
+  main .bienvenida h3 {
     font-size: 18px;
   }
   main .bienvenida .boton-inicio {

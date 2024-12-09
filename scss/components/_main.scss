@@ -8,22 +8,24 @@ main{
         background-attachment:fixed;
         margin: 0;
         padding: 60px;
-        padding-top: 50px;
+        padding-top: 70px;
         padding-bottom: 285px;
         align-items: center;
         justify-items: center;
         font-family: "Poppins", sans-serif;
-        h1{
-            font-size: 70px;
+        h2{
+            font-size: nth($font-size, 24);
+            color: $color-1;
             text-shadow:2px 2px 5px $color-5;
             font-family: "Poppins", sans-serif;
             font-weight:800;
             transition: 1s;
+            @include flex (flex, space-around, center);
             &:hover{
                 transform: scale(1.2);
             }
         }
-        h2{
+        h3{
             color: nth($colores, 1);
             font-size: nth($font-size, 17);
             margin-bottom: 45px;
