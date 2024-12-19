@@ -13,6 +13,7 @@ main{
         align-items: center;
         justify-items: center;
         font-family: "Poppins", sans-serif;
+        text-shadow:2px 2px 5px $color-5;
         h2{
             font-size: nth($font-size, 24);
             color: $color-1;
@@ -116,7 +117,7 @@ main{
             "recetas-1 recetas-2 recetas-3 recetas-4"
             "almuerzo almuerzo almuerzo almuerzo"
             "recetas-5 recetas-6 recetas-7 recetas-8";
-        gap: 25px;
+        gap: 15px;
         font-family: "Poppins", sans-serif;
         
         .titulo{
@@ -159,7 +160,7 @@ main{
             grid-area: desayuno;
             text-align: center;
             z-index: 2;
-            text-shadow:2px 2px 5px $color-5;
+            text-shadow:2px 2px 5px $color-1;
             font-family: "Poppins", sans-serif;
             font-weight: 500;
             color: nth($colores, 1);
@@ -169,7 +170,7 @@ main{
                 font-family: "Poppins", sans-serif;
                 align-items: center;
                 margin: 5px;
-                color: nth($colores, 4);
+                color: nth($colores, 5);
             }
         }
         .recetas-1{
@@ -183,13 +184,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -223,13 +225,14 @@ main{
                 padding-top: 20px;
                 padding-bottom: 0;
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -263,13 +266,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -304,13 +308,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -347,7 +352,7 @@ main{
             grid-area: almuerzo;
             text-align: center;
             z-index: 2;
-            text-shadow:2px 2px 5px $color-5;
+            text-shadow:2px 2px 5px $color-1;
             font-family: "Poppins", sans-serif;
             color: nth($colores, 1);
             font-weight: 500;
@@ -356,7 +361,7 @@ main{
                 align-items: center;
                 margin: 5px;
                 color: $color-4;
-                color: nth($colores, 4);
+                color: nth($colores, 5);
             }
         }
         .recetas-5{
@@ -370,13 +375,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -410,13 +416,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -450,13 +457,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{
@@ -490,13 +498,14 @@ main{
                 color: nth($colores, 5);
                 font-size: nth($font-size, 16);
                 transition: 1.5s;
+                height: 95px;
                 &:hover{
                     font-weight: 500;
                     transform: scale(1.1);
                 }
             }
             img{
-                width: 100%;
+                width: 95%;
                 margin: 10px;
                 transition: 1s;
                 &:hover{

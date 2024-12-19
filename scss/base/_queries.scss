@@ -1,3 +1,44 @@
+@media screen and (max-width:1600px){
+    main .grid-recetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "titulo titulo"
+        "desayuno desayuno"
+        "recetas-1 recetas-2"
+        "recetas-3 recetas-4"
+        "almuerzo almuerzo"
+        "recetas-5 recetas-6"
+        "recetas-7 recetas-8";
+        gap: 15px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .grid-recetas h2{
+        font-size: 35px;
+    }
+
+    .grid-recetas h3{
+        font-size: 28px;
+    }
+
+    .grid-recetas h4{
+        font-size: 12px;
+    }
+
+    .grid-recetas h5{
+        font-size: 10px;
+    }
+
+    .grid-recetas p{
+        font-size: 8px;
+        text-align: justify;
+        margin: 0;
+    }
+}
+
 @media screen and (max-width:955px){
     main .tips2{
         display: grid;
@@ -28,7 +69,7 @@
         "almuerzo almuerzo"
         "recetas-5 recetas-6"
         "recetas-7 recetas-8";
-        gap: 20px;
+        gap: 15px;
         width: 100%;
         margin: 0px;
     }
@@ -74,12 +115,39 @@
     }
 }
 
+@media screen and (max-width:750px){
+    main .grid-recetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "titulo titulo"
+        "desayuno desayuno"
+        "recetas-1 recetas-2"
+        "recetas-3 recetas-4"
+        "almuerzo almuerzo"
+        "recetas-5 recetas-6"
+        "recetas-7 recetas-8";
+        gap: 13px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .bienvenida h2{
+        font-size: 18px;
+    }
+
+    .grid-recetas h4{
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width:630px){
     main .tips2{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
-        gap: 25px;
+        gap: 13px;
         margin-top: 25px;
         background-color: #dad0d0;
         padding: 15px;
@@ -146,7 +214,7 @@
             "recetas-6"
             "recetas-7"
             "recetas-8";
-        gap: 15px;
+        gap: 13px;
         width: 100%;
         margin: 0;
     }
@@ -750,6 +818,10 @@
 }
 
 @media screen and (max-width:360px){
+    main .bienvenida img{
+        width: 95%;
+    }
+    
     main .bienvenida h2{
         color: white;
         font-family: "Poppins", sans-serif;
@@ -788,12 +860,12 @@
     }
 
     main .grid-recetas .recetas-1 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-1 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -803,12 +875,12 @@
     }
 
     main .grid-recetas .recetas-2 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-2 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -818,12 +890,12 @@
     }
 
     main .grid-recetas .recetas-3 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-3 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -833,12 +905,12 @@
     }
 
     main .grid-recetas .recetas-4 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-4 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -848,12 +920,12 @@
     }
 
     main .grid-recetas .recetas-5 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-5 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -863,12 +935,12 @@
     }
 
     main .grid-recetas .recetas-6 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-6 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -878,12 +950,12 @@
     }
 
     main .grid-recetas .recetas-7 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-7 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -893,12 +965,12 @@
     }
 
     main .grid-recetas .recetas-8 h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     main .grid-recetas .recetas-8 h5{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }
